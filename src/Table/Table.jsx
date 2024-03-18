@@ -47,7 +47,7 @@ export default function Table() {
     //определяем функцию запроса на сервер
     const postData = async() => {
       const requestData = await fetch(
-        "http://b1server.onrender.com/"+ currtable, 
+        "https://b1server.onrender.com/"+ currtable, 
         {
           headers: {
             'Accept': 'application/json',
@@ -73,7 +73,7 @@ export default function Table() {
     event.preventDefault();
     //определеям функцию с запросом
     const getData = async() => {
-      const requestData = await fetch("http://b1server.onrender.com/"+ currtable);
+      const requestData = await fetch("https://b1server.onrender.com/"+ currtable);
 
       if(requestData.status == 200){
         const responseData = await requestData.json();
