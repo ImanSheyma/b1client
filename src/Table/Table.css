@@ -1,0 +1,59 @@
+.component-container{
+  margin: auto;
+  text-decoration: none;
+}
+
+.file-import-container {
+  margin: auto;
+  max-width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.table-container {
+    overflow-y: auto;
+    max-height: 500px;
+    max-width: 90%;
+    margin: auto;
+    border:2px solid rgb(221, 220, 220);
+    border-radius: 5px;
+}
+
+button, .input-file-btn {
+  background-color: #49b1d4;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 20px;
+  margin: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  transition: background-color 0.2s;
+}
+
+select {
+  border:2px solid rgb(221, 220, 220);
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+}
+
+button:hover, .input-file-btn:hover {
+	background-color: #0090b8;
+}
+
+.input-file {
+	position: relative;
+	display: inline-block;
+}
+
+input[type="file"] {
+  display: none;
+}
+
